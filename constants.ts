@@ -1,13 +1,13 @@
 import { AppConfig } from './types';
 
-export const PRODUCTS = ["Melonity", "Umbrella", "Divine", "Hake", "Deadlock", "DotaAccount"];
+export const PRODUCTS = ["Melonity", "Umbrella Dota 2", "Divine", "Hake", "Umbrella Deadlock", "DotaAccount"];
 
 export const PRODUCT_DURATIONS: Record<string, string[]> = {
   "Melonity": ["1 Day", "7 Days", "30 Days", "90 Days", "180 Days", "Lifetime"],
-  "Umbrella": ["1 Day", "7 Days", "14 Days", "30 Days", "90 Days", "180 Days", "Lifetime"],
+  "Umbrella Dota 2": ["1 Day", "7 Days", "14 Days", "30 Days", "90 Days", "180 Days", "Lifetime"],
   "Divine": ["7 Days", "14 Days", "30 Days"],
   "Hake": ["1 Day", "7 Days", "30 Days", "90 Days", "180 Days"],
-  "Deadlock": ["1 Day", "7 Days", "14 Days", "30 Days", "90 Days", "180 Days", "Lifetime"],
+  "Umbrella Deadlock": ["1 Day", "7 Days", "14 Days", "30 Days", "90 Days", "180 Days", "Lifetime"],
   "DotaAccount": ["Ranked Ready", "TBD Rank Open"],
   "default": ["1 Day", "7 Days", "30 Days"]
 };
@@ -70,7 +70,7 @@ export const DEFAULT_CONFIG: AppConfig = {
     {
       "id": 1700000000002,
       "name": "DendiFromPudge",
-      "product": "Umbrella",
+      "product": "Umbrella Dota 2",
       "rating": 4,
       "comment": "Good functionality but needs better documentation. Support is helpful though.",
       "createdAt": "2026-02-09T07:46:00.000Z"
@@ -79,7 +79,7 @@ export const DEFAULT_CONFIG: AppConfig = {
   requests: [
     {
       "id": 1700000000003,
-      "product": "Umbrella",
+      "product": "Umbrella Dota 2",
       "discord": "dda",
       "orderId": "dafasfasf",
       "status": "pending"
@@ -117,31 +117,31 @@ export const DEFAULT_CONFIG: AppConfig = {
       "fiatWorld": "",
       "fiatRegion": ""
     },
-    "Umbrella_1 Day": {
+    "Umbrella Dota 2_1 Day": {
       "crypto": "https://miuwmiaw.selly.store/product/2234bbc8",
       "fiat": "https://www.g2g.com/id/categories/steam-wallet-gift-cards/offer/G1742351148823NQ"
     },
-    "Umbrella_7 Days": {
+    "Umbrella Dota 2_7 Days": {
       "crypto": "https://miuwmiaw.selly.store/product/b467998d",
       "fiat": "https://www.g2g.com/id/categories/steam-wallet-gift-cards/offer/G1742352243538IM"
     },
-    "Umbrella_14 Days": {
+    "Umbrella Dota 2_14 Days": {
       "crypto": "https://miuwmiaw.selly.store/product/98a0067e",
       "fiat": "https://www.g2g.com/id/categories/steam-wallet-gift-cards/offer/G1742352284244IK"
     },
-    "Umbrella_30 Days": {
+    "Umbrella Dota 2_30 Days": {
       "crypto": "https://miuwmiaw.selly.store/product/41241060",
       "fiat": "https://www.g2g.com/id/categories/steam-wallet-gift-cards/offer/G1742352453710CO"
     },
-    "Umbrella_90 Days": {
+    "Umbrella Dota 2_90 Days": {
       "crypto": "https://miuwmiaw.selly.store/product/1fbde5b9",
       "fiat": "https://www.g2g.com/id/categories/steam-wallet-gift-cards/offer/G1742352500701ZP"
     },
-    "Umbrella_180 Days": {
+    "Umbrella Dota 2_180 Days": {
       "crypto": "https://miuwmiaw.selly.store/product/31639c3d",
       "fiat": "https://www.g2g.com/id/categories/steam-wallet-gift-cards/offer/G1742352538771DA"
     },
-    "Umbrella_Lifetime": {
+    "Umbrella Dota 2_Lifetime": {
       "crypto": "https://miuwmiaw.selly.store/product/f65a6299",
       "fiat": "https://miuwmiaw.selly.store/product/f65a6299"
     },
@@ -177,27 +177,27 @@ export const DEFAULT_CONFIG: AppConfig = {
       "crypto": "https://miuwmiaw.selly.store/product/c66fdd54",
       "fiat": ""
     },
-    "Deadlock_1 Day": {
+    "Umbrella Deadlock_1 Day": {
       "crypto": "https://miuwmiaw.selly.store/product/259b8111",
       "fiat": "https://www.g2g.com/id/categories/razer-gold-gift-cards/offer/G1757596810504MR"
     },
-    "Deadlock_7 Days": {
+    "Umbrella Deadlock_7 Days": {
       "crypto": "https://miuwmiaw.selly.store/product/4ec23486",
       "fiat": "https://www.g2g.com/id/categories/razer-gold-gift-cards/offer/G1757596885512IK"
     },
-    "Deadlock_14 Days": {
+    "Umbrella Deadlock_14 Days": {
       "crypto": "https://miuwmiaw.selly.store/product/f7ab11f4",
       "fiat": ""
     },
-    "Deadlock_30 Days": {
+    "Umbrella Deadlock_30 Days": {
       "crypto": "https://miuwmiaw.selly.store/product/5e617c49",
       "fiat": "https://www.g2g.com/id/categories/razer-gold-gift-cards/offer/G1757596285259BU"
     },
-    "Deadlock_90 Days": {
+    "Umbrella Deadlock_90 Days": {
       "crypto": "https://miuwmiaw.selly.store/product/a6c4976d",
       "fiat": ""
     },
-    "Deadlock_180 Days": {
+    "Umbrella Deadlock_180 Days": {
       "crypto": "https://miuwmiaw.selly.store/product/ecfdbc7f",
       "fiat": ""
     },
